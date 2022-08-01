@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Product} from './components/Product';
+import {useProducts} from "./hooks/products";
+import {Loader} from "./components/Loader";
+import {ErrorMessage} from "./components/ErrorMessage";
+import {Modal} from "./components/Modal";
+import {CreateProduct} from "./components/CreateProduct";
+import {useContext} from "react";
+import {IProduct} from "./models";
+import {ModalContext} from "./context/ModalContext";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
 }
 
 export default App;
