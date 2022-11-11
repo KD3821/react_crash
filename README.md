@@ -1,3 +1,16 @@
+# React TypeScript App
+
+<h1 align="center">A web app for online-store based on React/TypeScript (crash course)</h1>
+<p align="center">
+
+<img src="https://img.shields.io/badge/madeBy-KD3821-maroon" >
+
+Приложение в рамках прохождения быстрого онлайн-курса:<br>
+<a href="https://www.youtube.com/watch?v=OJ16BaPC6VI">"React и TypeScript - Быстрый Курс 2022"</a><br>
+Автор: <a href="https://t.me/js_by_vladilen">Владилен Минин</a><br>
+Обновленный быстрый курс по React.js + объяснение работы React с TypeScript
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
